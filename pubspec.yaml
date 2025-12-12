@@ -20,11 +20,12 @@ dependencies:
   vpnclient_engine:
     git:
       url: https://github.com/win2happy/flutter_vpn_engine.git
+      ref: main  # 或者指定 tag/commit
   cupertino_icons: ^1.0.8
   url_launcher: ^6.3.1
   flutter_dotenv: ^5.1.0
   app_links: ^3.4.5
-  intl: ^0.20.2
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
